@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/half.css">
+	</head>
+	<body>
+
+
+		<div class="col twelve whole">
+	
+			<div class="flex-container">
+		
+					<div class="flex-item" id="flex1">
+						<a class="portfoliolinks" href="https://harwoodmonica.github.io/black-water-opera/index.html" target="_blank">
+						<img onmouseover="icon(this)" onmouseout="remove(this)" border="0" src="images/musicnote.svg" alt="Music Note" width="32" height="32" id="icon1">
+						</a>
+					</div>
+	
+
+				<div class="flex-item" id="flex2">
+					<a class="portfoliolinks" href="https://codepen.io/harwoodmonica/pen/rzjamE" target="_blank">
+						<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/code.svg" alt="Code" width="32" height="32" id="icon2">
+					</a>
+				</div>
+				<div class="flex-item" id="flex3">
+					<a class="portfoliolinks" href="images/design.pdf" target="_blank">
+						<img onmouseover="note(this)" onmouseout="takeaway(this)" border="0" src="images/designicon.svg" alt="Design" width="32" height="32" id="icon3">
+					</a>
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="flex-item" id="flex4">
+					<a class="portfoliolinks" href="https://www.youtube.com/watch?v=KSvXkzCrRf0" target="_blank" allowfullscreen>
+						<img onmouseover="film(this)" onmouseout="zero(this)" border="0" src="images/filmicon.svg" alt="Video" width="32" height="32" id="icon4">
+					</a>
+				</div>
+				<div class="flex-item" id="flex5">
+					<img src="logo.svg" id="logo" alt="Logo" width="100" height="200">
+				</div>
+				<div class="flex-item" id="flex6">
+					<a class="portfoliolinks" href="ppc.html" target=_blank">
+						<img onmouseover="choir(this)" onmouseout="nomore(this)" border="0" src="images/choiricon.svg" alt="choir" width="32" height="32" id="icon6">
+					</a>
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="flex-item" id="flex7">
+					<a class="portfoliolinks" href="writing.pdf" target="_blank">
+						<img onmouseover="piano(this)" onmouseout="erase(this)" border="0" src="images/pencilicon.svg" alt="Pencil" width="32" height="32" id="icon7">
+					</a>
+				</div>
+				<div class="flex-item" id="flex8">
+					<a class="portfoliolinks" href="imagegallery.html" target="_blank">
+						<img onmouseover="chloe(this)" onmouseout="regular(this)" border="0" src="images/chloeicon.svg" alt="Chloe" width="32" height="32" id="chloeicon">
+					</a>
+				</div>
+				<div class="flex-item" id="flex9">
+					<a class="portfoliolinks" href="http://harwoodmonica.github.io/GardenSite/" target="_blank">
+						<img onmouseover="flower(this)" onmouseout="regular1(this)" border="0" src="images/flowericon.svg" alt="Flower" width="32" height="32" id="icon9">
+					</a>
+					</div>
+			</div>
+		</div>
+	</div>
+	<script>
+function icon(x) {
+	document.getElementById("icon1").src = "images/blackwatertext.svg";
+}
+
+function note(x) {
+	document.getElementById("icon3").src = "images/designtext.svg";
+}
+
+function bigImg(x) {
+    document.getElementById("icon2").src = "images/codetext.svg";
+}
+
+function film(x) {
+	document.getElementById("icon4").src = "images/videotext.svg";
+}
+
+function choir(x) {
+	document.getElementById("icon6").src = "images/choirtext.svg";
+}
+
+function piano(x) {
+	document.getElementById("icon7").src = "images/writingtext.svg";
+}
+
+function chloe(x) {
+	document.getElementById("chloeicon").src = "images/chloetext.svg";
+}
+
+function flower(x) {
+	document.getElementById("icon9").src = "images/gardentext.svg";
+}
+
+function normalImg(x) {
+    document.getElementById("icon2").src = "images/code.svg";
+}
+
+function zero(x) {
+	document.getElementById("icon4").src = "images/filmicon.svg";
+}
+
+function nomore(x) {
+	document.getElementById("icon6").src = "images/choiricon.svg";
+}
+
+function takeaway(x) {
+	document.getElementById("icon3").src = "images/designicon.svg";
+}
+
+function erase(x) {
+	document.getElementById("icon7").src = "images/pencilicon.svg";
+}
+
+function remove(x) {
+	document.getElementById("icon1").src = "images/musicnote.svg";
+}
+
+function regular(x) {
+	document.getElementById("chloeicon").src = "images/chloeicon.svg";
+}
+
+function regular1(x) {
+	document.getElementById("icon9").src = "images/flowericon.svg";
+}
+
+</script>
+	</body>
+</html>
