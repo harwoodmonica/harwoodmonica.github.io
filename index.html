@@ -1,88 +1,138 @@
 <!DOCTYPE html>
-
 <html>
-  
-<head>
-    
-<meta charset='utf-8'>
-    
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-    
-<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    
-<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    
-<link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    
-<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    
-<!--[if lt IE 9]>
-    
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    
-<![endif]-->
-    
-<title>Harwoodmonica.GitHub.io by harwoodmonica</title>
-  
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<title>Index</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/half.css">
+	</head>
+	<body>
 
-  
+	<div class="row">
+	<div class="col six">
+		<img src="logo.svg" id="logo" alt="Logo" width="100" height="200"><br>
+		<img src="welcome.svg" id="welcome" alt="Welcome!" width="300" height="100">
+		<p id="intro">My name is Monica and I create custom websites with HTML, CSS, JavaScript & More. Thanks for visiting!</p>
+		<ul>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+		<div id="rightside" class="col six">
+			<div class="flex-container">
+				<div class="flex-item" id="flex1">
+					<img onmouseover="icon(this)" onmouseout="remove(this)" border="0" src="images/blank.svg" alt="pencil" width="32" height="32" id="icon1">
+				</div>
+				<div class="flex-item" id="flex2">
+					<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/blank.svg" alt="Code" width="32" height="32" id="icon2">
+				</div>
+				<div class="flex-item" id="flex3">
+					<img onmouseover="note(this)" onmouseout="takeaway(this)" border="0" src="images/blank.svg" alt="Design" width="32" height="32" id="icon3">
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="flex-item" id="flex4">
+					<img onmouseover="film(this)" onmouseout="zero(this)" border="0" src="images/blank.svg" alt="film reel" width="32" height="32" id="icon4">
+				</div>
+				<div class="flex-item" id="flex5">
+					<img src="images/monicahead.svg" alt="Monica" width="32" height="32" id="icon5">
+				</div>
+				<div class="flex-item" id="flex6">
+					<img onmouseover="choir(this)" onmouseout="nomore(this)" border="0" src="images/blank.svg" alt="choir" width="32" height="32" id="icon6">
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="flex-item" id="flex7">
+					<img onmouseover="piano(this)" onmouseout="erase(this)" border="0" src="images/blank.svg" alto="Pencil" width="32" height="32" id="icon7">
+				</div>
+				<div class="flex-item" id="flex8">
+					<img onmouseover="chloe(this)" onmouseout="regular(this)" border="0" src="images/blank.svg" alt="Chloe" width="32" height="32" id="chloeicon">
+				</div>
+				<div class="flex-item" id="flex9">
+					<img onmouseover="flower(this)" onmouseout="regular1(this)" border="0" src="images/blank.svg" alt="Flower" width="32" height="32" id="icon9">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+function icon(x) {
+	document.getElementById("icon1").src = "images/musicnote.svg";
+}
 
-<body>
-    
-<div id="container">
-      
-<div class="inner">
+function bigImg(x) {
+    document.getElementById("icon2").src = "images/code.svg";
+}
 
-        
-<header>
-          
-<h1>Harwoodmonica.GitHub.io</h1>
-          
-<h2>Work by Monica Harwood</h2>
-        
-</header>
+function note(x) {
+	document.getElementById("icon3").src = "images/designicon.svg";
+}
 
-        
-<section id="downloads" class="clearfix">
-         
- <a href="https://github.com/harwoodmonica" id="view-on-github" class="button">
-<span>View on GitHub</span></a>
-        
-</section>
 
-        
-<hr>
 
-        
-<section id="main_content">
-          
-<h1>
-<a id="monica-harwood" class="anchor" href="#monica-harwood" aria-hidden="true">
-<span aria-hidden="true" class="octicon octicon-link"></span></a>Monica Harwood</h1>
+function film(x) {
+	document.getElementById("icon4").src = "images/filmicon.svg";
+}
 
-<h3>
+function logo(x) {
+	document.getElementById("icon5").src = "logo.svg";
+}
 
-<a id="some-of-my-work" class="anchor" href="#some-of-my-work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link">
-</span></a>Some of my Work</h3>
-        
-</section>
+function choir(x) {
+	document.getElementById("icon6").src = "images/choiricon.svg";
+}
 
-        
-<img src="/images/BlackWaterLayout.jpg" alt="Black Water Website" style="width:200px;height:150px;">
-Try it Yourself »
+function piano(x) {
+	document.getElementById("icon7").src = "images/pencilicon.svg";
+}
 
-<footer>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        
-</footer>
+function chloe(x) {
+	document.getElementById("chloeicon").src = "images/chloeicon.svg";
+}
 
-        
-      
-</div>
-    
-</div>
-  
-</body>
+function flower(x) {
+	document.getElementById("icon9").src = "images/flowericon.svg";
+}
 
+function normalImg(x) {
+    document.getElementById("icon2").src = "images/blank.svg";
+}
+
+function takeaway(x) {
+	document.getElementById("icon3").src = "images/blank.svg";
+}
+
+
+
+function zero(x) {
+	document.getElementById("icon4").src = "images/blank.svg";
+}
+
+function nomore(x) {
+	document.getElementById("icon6").src = "images/blank.svg";
+}
+
+function remove(x) {
+	document.getElementById("icon1").src = "images/blank.svg";
+}
+
+function remove2(x) {
+	document.getElementById("icon5").src = "images/blank.svg";
+}
+
+function erase(x) {
+	document.getElementById("icon7").src = "images/blank.svg";
+}
+
+function regular(x) {
+	document.getElementById("chloeicon").src = "images/blank.svg";
+}
+
+function regular1(x) {
+	document.getElementById("icon9").src = "images/blank.svg";
+}
+
+</script>
+	</body>
 </html>
