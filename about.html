@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>About</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/half.css">
+	</head>
+	<body>
+
+		<div class="col three">
+			<div class="flex-container-stacked">
+				<div class="flex-item-stacked" id="flex3">
+					<a class="portfoliolinks" href="resume.pdf" target="_blank">
+						<img onmouseover="resume(this)" onmouseout="remove2(this)" src="images/resume.svg" alt="pencil" width="32" height="32" id="icon1">
+					</a>
+				</div>
+				<div class="flex-item-stacked" id="flex2">
+					<img border="0" src="images/blank.svg" alt="Smiley" width="32" height="32" id="pic">
+				</div>
+				<div class="flex-item-stacked" id="flex1">
+					<img border="0" src="images/blank.svg" alt="music note" width="32" height="32" id="icon3">
+				</div>
+			</div>
+		</div>
+
+		<div class="col seven">
+			
+			<img src="images/abouttext.svg" alt="About" width="100" height="25" id="title">
+			<p id="abouttext"><img src="images/monicahead.svg" alt="Monica" width="100" height="100" id="aboutmonica">I am a recent graduate specializing in 
+			front end development and digital design. I was inspired to pursue a career in web development after starting my own music studio
+			and designing websites, along with other marketing materials, for my studio and performance engagements as a professional soprano. 
+			I direct a talented church choir in Poolesville, MD and provide marketing assistance for the City of Gaithersburg's home for the 
+			performing and visual arts, <a href="http://www.gaithersburgmd.gov/leisure/arts/arts-on-the-green"> Arts on the Green</a>. I also have a wonderful French Bulldog named Chloe.</p>
+		
+			
+
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+
+		</div>
+
+		<div class="col three">
+			<div class="flex-container-stacked">
+				<div class="flex-item-stacked" id="flex8">
+					<img border="0" src="images/blank.svg" alt="pencil" width="32" height="32" id="icon1">
+				</div>
+				<div class="flex-item-stacked" id="flex6">
+					<img border="0" src="images/blank.svg" alt="Smiley" width="32" height="32" id="pic">
+				</div>
+				<div class="flex-item-stacked" id="flex9">
+					<img border="0" src="images/blank.svg" alt="music note" width="32" height="32" id="icon3">
+				</div>
+			</div>
+		</div>
+
+	<script>
+
+function resume(x) {
+	document.getElementById("icon1").src = "images/resumetext.svg";
+}
+
+function remove2(x) {
+	document.getElementById("icon1").src = "images/resume.svg";
+}
+
+function icon(x) {
+	document.getElementById("icon1").src = "images/icon1.svg";
+}
+
+function note(x) {
+	document.getElementById("icon3").src = "images/icon3.svg";
+}
+
+function bigImg(x) {
+    document.getElementById("pic").src = "images/flexboximg1.svg";
+}
+
+function chloe(x) {
+	document.getElementById("chloeicon").src = "images/chloeicon.svg";
+}
+
+function normalImg(x) {
+    document.getElementById("pic").src = "images/blank.svg";
+}
+
+function takeaway(x) {
+	document.getElementById("icon3").src = "images/blank.svg";
+}
+
+function remove(x) {
+	document.getElementById("icon1").src = "images/blank.svg";
+}
+
+function regular(x) {
+	document.getElementById("chloeicon").src = "images/blank.svg";
+}
+
+</script>
+	</body>
+</html>
