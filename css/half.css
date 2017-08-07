@@ -98,13 +98,20 @@ li a:hover {
 	color: white;
 }
 
+@media only screen and (max-width: 600px) {
 #rightside {
+	display: none;
 	background: #8b008b;
 	background: -webkit-linear-gradient(left top, #8b008b, #3g454f); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #8b008b, #3g454f); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #8b008b, #3g454f); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #8b008b, black); /* Standard syntax (must be last) */
 } 
+
+.col.three {
+	display: none;
+}
+}
 
 .flex-container-row {
 	display: -webkit-flex;
