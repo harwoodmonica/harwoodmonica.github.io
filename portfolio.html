@@ -15,57 +15,59 @@
 			<div class="flex-container">
 		
 					<div class="flex-item" id="flex1">
-						<a class="portfoliolinks" href="https://harwoodmonica.github.io/black-water-opera/index.html" target="_blank">
-						<img onmouseover="icon(this)" onmouseout="remove(this)" border="0" src="images/musicnote.svg" alt="Music Note" width="32" height="32" id="icon1">
+						<a class="portfoliolinks" href="blackwater.pdf" target="_blank">
+						<img onmouseover="icon(this)" onmouseout="remove(this)" src="images/musicnote.svg" alt="Music Note" width="32" height="32" id="icon1">
 						</a>
 					</div>
 	
 
 				<div class="flex-item" id="flex2">
-					<a class="portfoliolinks" href="https://codepen.io/harwoodmonica/pen/rzjamE" target="_blank">
-						<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/code.svg" alt="Code" width="32" height="32" id="icon2">
+					<a class="portfoliolinks" href="code.pdf" target="_blank">
+						<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/code.svg" alt="Code" width="32" height="32" id="icon2">
 					</a>
 				</div>
 				<div class="flex-item" id="flex3">
 					<a class="portfoliolinks" href="images/design.pdf" target="_blank">
-						<img onmouseover="note(this)" onmouseout="takeaway(this)" border="0" src="images/designicon.svg" alt="Design" width="32" height="32" id="icon3">
+						<img onmouseover="note(this)" onmouseout="takeaway(this)" src="images/designicon.svg" alt="Design" width="32" height="32" id="icon3">
 					</a>
 				</div>
 			</div>
 			<div class="flex-container">
 				<div class="flex-item" id="flex4">
-					<a class="portfoliolinks" href="https://www.youtube.com/watch?v=KSvXkzCrRf0" target="_blank" allowfullscreen>
-						<img onmouseover="film(this)" onmouseout="zero(this)" border="0" src="images/filmicon.svg" alt="Video" width="32" height="32" id="icon4">
+					<a class="portfoliolinks" href="https://www.youtube.com/watch?v=KSvXkzCrRf0" target="_blank">
+						<img onmouseover="film(this)" onmouseout="zero(this)" src="images/filmicon.svg" alt="Video" width="32" height="32" id="icon4">
 					</a>
 				</div>
 				<div class="flex-item" id="flex5">
-					<img src="logo.svg" id="logo" alt="Logo" width="100" height="200">
+					<a class="portfoliolinks" href="index.html">
+					<img src="logo.svg" onmouseover="home(this)" onmouseout="logo(this)" id="logoportfoliopage" alt="Logo" width="100" height="200">
+					</a>
 				</div>
 				<div class="flex-item" id="flex6">
-					<a class="portfoliolinks" href="ppc.html" target=_blank">
-						<img onmouseover="choir(this)" onmouseout="nomore(this)" border="0" src="images/choiricon.svg" alt="choir" width="32" height="32" id="icon6">
-					</a>
+					<a class="portfoliolinks" href="ppc.html" target="_blank">
+						<img onmouseover="choir(this)" onmouseout="nomore(this)" src="images/choiricon.svg" alt="choir" width="32" height="32" id="icon6">
+						</a>
 				</div>
 			</div>
 			<div class="flex-container">
 				<div class="flex-item" id="flex7">
-					<a class="portfoliolinks" href="writing.pdf" target="_blank">
-						<img onmouseover="piano(this)" onmouseout="erase(this)" border="0" src="images/pencilicon.svg" alt="Pencil" width="32" height="32" id="icon7">
+					<a class="portfoliolinks" href="writingsamples.pdf" target="_blank">
+						<img onmouseover="piano(this)" onmouseout="erase(this)" src="images/pencilicon.svg" alt="Pencil" width="32" height="32" id="icon7">
 					</a>
 				</div>
 				<div class="flex-item" id="flex8">
 					<a class="portfoliolinks" href="imagegallery.html" target="_blank">
-						<img onmouseover="chloe(this)" onmouseout="regular(this)" border="0" src="images/chloeicon.svg" alt="Chloe" width="32" height="32" id="chloeicon">
+						<img onmouseover="chloe(this)" onmouseout="regular(this)" src="images/chloeicon.svg" alt="Chloe" width="32" height="32" id="chloeicon">
 					</a>
 				</div>
 				<div class="flex-item" id="flex9">
 					<a class="portfoliolinks" href="http://harwoodmonica.github.io/GardenSite/" target="_blank">
-						<img onmouseover="flower(this)" onmouseout="regular1(this)" border="0" src="images/flowericon.svg" alt="Flower" width="32" height="32" id="icon9">
+						<img onmouseover="flower(this)" onmouseout="regular1(this)" src="images/flowericon.svg" alt="Flower" width="32" height="32" id="icon9">
 					</a>
 					</div>
 			</div>
 		</div>
-	</div>
+	
 	<script>
 function icon(x) {
 	document.getElementById("icon1").src = "images/blackwatertext.svg";
@@ -81,6 +83,10 @@ function bigImg(x) {
 
 function film(x) {
 	document.getElementById("icon4").src = "images/videotext.svg";
+}
+
+function home(x) {
+	document.getElementById("logoportfoliopage").src = "images/hometext.svg";
 }
 
 function choir(x) {
@@ -105,6 +111,10 @@ function normalImg(x) {
 
 function zero(x) {
 	document.getElementById("icon4").src = "images/filmicon.svg";
+}
+
+function logo(x) {
+	document.getElementById("logoportfoliopage").src = "logo.svg";
 }
 
 function nomore(x) {
