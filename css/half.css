@@ -111,6 +111,12 @@ li a:hover {
 .col.three {
 	display: none;
 }
+
+#flex10, #flex11, #flex12 {
+	display: none;
+}
+
+
 }
 
 .flex-container-row {
@@ -231,7 +237,7 @@ li a:hover {
 	background-color: white;
 }
 
-#flex6 {
+#flex6, #flex11 {
 	background-color: #766d79;
 	display: flex;
 	justify-content: center;
@@ -250,7 +256,7 @@ li a:hover {
 	align-items: center;
 }
 
-#flex8 {
+#flex8, #flex10 {
 	background-color: #704145;
 	display: flex;
 	justify-content: center;
@@ -267,7 +273,7 @@ li a:hover {
 	height: 70%;
 }
 
-#flex9 {
+#flex9, #flex12 {
 	background-color: #493a49;
 	display: flex;
 	justify-content: center;
