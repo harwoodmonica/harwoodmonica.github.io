@@ -11,8 +11,9 @@ body {
 .jumbotron {
 	width: 100%;
 	background-color: black;
-	height: 10%;
+	height: 6em;
 	padding-top: 0;
+	text-align: center;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
@@ -20,8 +21,8 @@ body {
 h2 {
 	color: #EAEBE4;
 	display: inline-block;
-	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
 }
 
 p {
@@ -30,6 +31,14 @@ p {
 
 .caption {
 	font-size: 2em;
+}
+
+figcaption {
+	text-align: center;
+}
+
+#joy {
+	color: black;
 }
 
 #churchimg {
