@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Poolesville Community Garden</title>
+		
+		
+	
+	<link rel="stylesheet" href="css/garden.css">
+	</head>
+
+<body>
+<div class="bg"></div>
+<img src="images/gardenhead.png" id="gardenhead" alt="Poolesville Community Garden" height="79" width="530">
+
+
+
+
+<div class="nav">
+
+<ul>
+<li><a href="aboutgarden.html">About</a></li>
+<li><a href="reserve.html">Reserve a Plot</a></li>
+<li><a href="contactgarden.html">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="container">
+<h1>Contact Us</h1>
+
+
+Email:<br>
+<a href="mailto:PoolesvilleCommunityGarden@gmail.com" style="text-decoration:none">PoolesvilleCommunityGarden@gmail.com</a><br>
+Church Phone: <a href="tel:(301) 972-7452" style="text-decoration:none">(301) 972-7452</a> <br>
+
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 39.1471964, lng: -77.416507}, 
+          zoom: 15
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+
+<div class="details">
+
+<p>We are located at:<br>
+17800 Elgin Rd.<br>
+Poolesville, MD 20837<br>
+
+<a href="https://www.facebook.com/PoolesvilleCommunityGarden/"><img src="http://icecct.com/wp-content/uploads/2014/07/facebook_button-281x92.png" 
+style="width: 15%; height: 15%; margin:20px 0px 0px 0px;"/></a>
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
