@@ -1,0 +1,130 @@
+#background-pattern {
+	width: 100%;
+	height: 100%;
+}
+
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: Palatino Linotype;
+	color: #808080;
+}
+
+
+.bg {
+	background-image: url("http://i.imgur.com/GgPAUaB.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#gardenhead {
+	position: fixed;
+	top: 0;
+	width: 70%;
+	height: auto;
+	margin-top: 1em;
+	margin-left: 15%;
+	text-align: center;
+	min-width: 30em;
+	
+}
+
+@media only screen and (max-width: 600px) {
+	#gardenhead {
+		width: 100%
+		height: auto;
+		margin-left: 3%;
+	}
+	.nav {
+		margin-left: 4%;
+	}
+}
+
+
+.nav {
+	position: fixed;
+	top: 30%;
+	float: none;
+	width: 100%;
+	text-align: center;
+	margin-left: 39%;
+}
+
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	text-align: center;
+	float: none;
+	width: 100%;
+}
+	li {
+	background-color: #f1f1f1;
+	list-style-type: none;
+	border-right: 1px solid #FFFFFF;
+	text-align: center;
+	float: left;
+	display: inline-block;
+}
+	li a {
+	display: block;
+	background-color: #f1f1f1;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+	li a:hover {
+	background-color: #FFFFFF
+}
+
+#gardengrass {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	position: fixed;
+	top: 45%;
+	width: 80%;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	margin-left: 10%;
+	float: none;
+}
+
+
+
+	.button{
+	color: black;
+	text-align: center;
+	margin:auto;
+	display: block;
+}
+	table, th, td{
+		border: 1px solid black;
+		text-align: center;
+		padding: 10px;
+		margin: 15px 0px 15px 0px;
+}
+	th{
+	background-color: white;
+}
+	tr{
+	background-color: #f2f2f2
+}
+
+#gardentable {
+	text-align: center;
+}
